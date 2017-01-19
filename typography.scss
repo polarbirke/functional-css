@@ -1,22 +1,36 @@
 .sg-h1-like {
 	color: $color-text--black;
-	font-size: 33px;
+	font-size: 22px;
 	font-weight: bold;
-	line-height: 1.1818181818; // 39 / 33
+	line-height: 1.2727272727; // 28 / 22
+
+	@media (min-width: 601px) {
+		font-size: 33px;
+		line-height: 1.1818181818; // 39 / 33
+	}
 }
 
 .sg-h3-like {
 	color: $color-text--black;
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 1.333333; // 18/24
+	font-size: 13px;
+	line-height: 1.4615384615; // 19/13
 	margin-top: 0;
 	margin-bottom: 10px;
+
+	@media (min-width: 601px) {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.333333; // 24/18
+	}
 }
 
 .sg-h4-like {
 	color: $color-text--black;
 	font-size: 13px;
 	font-weight: bold;
-	line-height: 1.4615384615; // 13/19
+	line-height: 1.4615384615; // 19/13
+}
+
+.u-text-center {
+	text-align: center !important;
 }
