@@ -1,0 +1,22 @@
+.sg-h1-like {
+	color: $color-text--black;
+	font-size: 33px;
+	font-weight: bold;
+	line-height: 1.1818181818; // 39 / 33
+}
+
+.sg-h3-like {
+	color: $color-text--black;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.333333; // 18/24
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.sg-h4-like {
+	color: $color-text--black;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.4615384615; // 13/19
+}
